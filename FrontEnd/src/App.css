@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  background: #0f1117;
+  color: #e2e8f0;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.app-header {
+  padding: 1.5rem 3rem;
+  border-bottom: 1px solid #1e2433;
+  background: #0d1018;
+}
+
+.app-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f8fafc;
+  letter-spacing: -0.02em;
+}
+
+.app-header .subtitle {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.app-main {
+  padding: 3rem;
+}
+
+.workspace-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.coming-soon-card {
+  background: #161b27;
+  border: 1px solid #1e2d3d;
+  border-radius: 16px;
+  padding: 3rem;
+  max-width: 520px;
+  width: 100%;
+  text-align: center;
+}
+
+.coming-soon-card h2 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: #f1f5f9;
+  margin-bottom: 1rem;
+}
+
+.coming-soon-card p {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  line-height: 1.65;
+  margin-bottom: 2rem;
+}
+
+.status-badges {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 0.3rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.badge-green {
+  background: rgba(34, 197, 94, 0.1);
+  color: #4ade80;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}

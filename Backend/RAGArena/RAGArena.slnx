@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="RAGArena.ApiService/RAGArena.ApiService.csproj" />
+  <Project Path="RAGArena.AppHost/RAGArena.AppHost.csproj" />
+  <Project Path="RAGArena.ServiceDefaults/RAGArena.ServiceDefaults.csproj" />
+  <Project Path="RAGArena.Web/RAGArena.Web.csproj" />
+</Solution>

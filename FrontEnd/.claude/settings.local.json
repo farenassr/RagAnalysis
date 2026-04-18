@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet list:*)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet add:*)",
+      "Bash(ls:*)",
+      "Bash(dotnet user-secrets list:*)"
+    ]
+  },
+  "enabledPlugins": {
+    "expo@claude-plugins-official": true
+  }
+}

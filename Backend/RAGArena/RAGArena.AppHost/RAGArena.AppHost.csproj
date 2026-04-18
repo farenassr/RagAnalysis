@@ -1,0 +1,16 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>dcc97862-a947-4a99-9d2b-acfe4b6c5a88</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RAGArena.ApiService\RAGArena.ApiService.csproj" />
+    <ProjectReference Include="..\RAGArena.Web\RAGArena.Web.csproj" />
+  </ItemGroup>
+
+</Project>
